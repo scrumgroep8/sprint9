@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mpatt\\OneDrive\\Bureaublad\\sprinten\\sprint11\\sprint11.csproj",
-      "projectName": "sprint11",
-      "projectPath": "C:\\Users\\mpatt\\OneDrive\\Bureaublad\\sprinten\\sprint11\\sprint11.csproj",
+      "projectUniqueName": "C:\\Users\\mpatt\\OneDrive\\Bureaublad\\sprinten\\sprint12\\testopdracht13\\testopdracht13.csproj",
+      "projectName": "testopdracht13",
+      "projectPath": "C:\\Users\\mpatt\\OneDrive\\Bureaublad\\sprinten\\sprint12\\testopdracht13\\testopdracht13.csproj",
       "packagesPath": "C:\\Users\\mpatt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mpatt\\OneDrive\\Bureaublad\\sprinten\\sprint11\\obj\\",
+      "outputPath": "C:\\Users\\mpatt\\OneDrive\\Bureaublad\\sprinten\\sprint12\\testopdracht13\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

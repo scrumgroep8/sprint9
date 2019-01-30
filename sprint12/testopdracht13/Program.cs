@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace sprint11
+namespace testopdracht13
 {
     class Program
     {
