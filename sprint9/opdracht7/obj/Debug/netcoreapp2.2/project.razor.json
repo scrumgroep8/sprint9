@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\mpatt\\OneDrive\\Bureaublad\\sprinten\\sprint9\\opdracht7\\opdracht7.csproj",
+  "TargetFramework": "netcoreapp2.2",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
