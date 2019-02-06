@@ -10,6 +10,8 @@ namespace opdracht4
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.Clear();
 
+            //////////////////////////////////////////////-BEGINNING LOGIN SYSTEM-//////////////////////////////////////////////
+
             //poging counter start bij 1
             int pogingen = 1;
 
@@ -80,13 +82,7 @@ namespace opdracht4
                         Console.WriteLine("je naam is " + naam.ToString());
                     }
 
-                    //
-
-                    //
-
-                    //
-
-                    // 
+                    //////////////////////////////////////////////-END LOGIN SYSTEM-//////////////////////////////////////////////
                     
                     Console.WriteLine("nibba");
         }
