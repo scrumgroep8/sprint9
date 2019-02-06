@@ -1,0 +1,11 @@
+C:\Users\mpatt\OneDrive\Bureaublad\sprinten\sprint9\opdracht4\bin\Debug\netcoreapp2.2\opdracht4.deps.json
+C:\Users\mpatt\OneDrive\Bureaublad\sprinten\sprint9\opdracht4\bin\Debug\netcoreapp2.2\opdracht4.runtimeconfig.json
+C:\Users\mpatt\OneDrive\Bureaublad\sprinten\sprint9\opdracht4\bin\Debug\netcoreapp2.2\opdracht4.runtimeconfig.dev.json
+C:\Users\mpatt\OneDrive\Bureaublad\sprinten\sprint9\opdracht4\bin\Debug\netcoreapp2.2\opdracht4.dll
+C:\Users\mpatt\OneDrive\Bureaublad\sprinten\sprint9\opdracht4\bin\Debug\netcoreapp2.2\opdracht4.pdb
+C:\Users\mpatt\OneDrive\Bureaublad\sprinten\sprint9\opdracht4\obj\Debug\netcoreapp2.2\opdracht4.csprojAssemblyReference.cache
+C:\Users\mpatt\OneDrive\Bureaublad\sprinten\sprint9\opdracht4\obj\Debug\netcoreapp2.2\opdracht4.csproj.CoreCompileInputs.cache
+C:\Users\mpatt\OneDrive\Bureaublad\sprinten\sprint9\opdracht4\obj\Debug\netcoreapp2.2\opdracht4.AssemblyInfoInputs.cache
+C:\Users\mpatt\OneDrive\Bureaublad\sprinten\sprint9\opdracht4\obj\Debug\netcoreapp2.2\opdracht4.AssemblyInfo.cs
+C:\Users\mpatt\OneDrive\Bureaublad\sprinten\sprint9\opdracht4\obj\Debug\netcoreapp2.2\opdracht4.dll
+C:\Users\mpatt\OneDrive\Bureaublad\sprinten\sprint9\opdracht4\obj\Debug\netcoreapp2.2\opdracht4.pdb
