@@ -33,12 +33,15 @@ namespace opdracht2
 
             //resultaten
             if (pogingen > 2)
+            {
                 Console.WriteLine("3 keer fout wachtwoord");
+            }
             else
+            {
                 Console.WriteLine("je bent ingelogd");
 
                 Console.WriteLine("je naam is " + naam.ToString());
-
+            }
             Console.ReadKey();
         }
     }

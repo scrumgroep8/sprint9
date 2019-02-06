@@ -10,8 +10,8 @@ namespace opdracht3
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.Clear();
 
-            //poging counter
-            int pogingen = 0;
+            //poging counter start bij 1
+            int pogingen = 1;
 
             string  naam;
 
@@ -21,24 +21,38 @@ namespace opdracht3
             //for loop die er voor zorgt dat je maar 3 keer kan
             for (int i = 0; i < 3; i++)
             {
-
+            
             Console.WriteLine("Enter password");
             string password = Console.ReadLine();
 
-            if (password != "password")
+            Console.WriteLine("je hebt " + pogingen.ToString() + " keer geprobeerd");
+
+            if (pogingen == 2)
+                {
+                    Console.WriteLine("LET OP JE DIT IS JE LAATSTE KANS");
+                }
+
+            if (password != "SHARPSOUND")
+                {
                 pogingen++;
+                }
             else
+                {
                 break;
+                }
             }
 
             //resultaten
-            if (pogingen > 2)
-                Console.WriteLine("3 keer fout wachtwoord");
+            if (pogingen > 3)
+            {
+                Console.WriteLine("jammer te vaak fout");
+            }
             else
+            {
                 Console.WriteLine("je bent ingelogd");
 
                 Console.WriteLine("je naam is " + naam.ToString());
-
+            }
             Console.ReadKey();
         }
     }
