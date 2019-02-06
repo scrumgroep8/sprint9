@@ -6,15 +6,12 @@ namespace opdracht4
     {
         static void Main(string[] args)
         {
-              Console.BackgroundColor = ConsoleColor.Gray;
+            Console.BackgroundColor = ConsoleColor.Gray;
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.Clear();
 
             //poging counter start bij 1
             int pogingen = 1;
-            
-            //boolean die aangeeft of je wel of niet ingelogd bent
-            bool ingelogd = false;
 
             //string voor je naam
             string  naam;
@@ -66,20 +63,32 @@ namespace opdracht4
 
                     //
 
-                    // resultaten
+                    // als hij te vaak fout is dan doet hij een exit. als hij goed is dan gaat de applicatie verder.
 
                     if (pogingen > 3)
                     {
-                        Console.WriteLine("jammer te vaak fout");
+                        Console.Clear();
+
+                        Console.WriteLine("3x fout! shutdown.");
+
+                        Environment.Exit(0);
                     }
                     else
                     {
                         Console.WriteLine("je bent ingelogd");
 
                         Console.WriteLine("je naam is " + naam.ToString());
-
-                        ingelogd = true;
                     }
+
+                    //
+
+                    //
+
+                    //
+
+                    // 
+                    
+                    Console.WriteLine("nibba");
         }
     }
 }
