@@ -4,7 +4,7 @@ namespace opdracht4
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
             Console.BackgroundColor = ConsoleColor.Gray;
             Console.ForegroundColor = ConsoleColor.Blue;
@@ -77,14 +77,45 @@ namespace opdracht4
                     }
                     else
                     {
+                        Console.Clear();
+
                         Console.WriteLine("je bent ingelogd");
 
                         Console.WriteLine("je naam is " + naam.ToString());
                     }
 
                     //////////////////////////////////////////////-END LOGIN SYSTEM-//////////////////////////////////////////////
+
+                    string keuze = "";
+
                     
-                    Console.WriteLine("nibba");
+
+                    while (keuze != "3")
+                    {
+                        Console.WriteLine("");
+                        Console.WriteLine("1. menu");
+                        Console.WriteLine("2. iets");
+                        Console.WriteLine("3. exit");
+
+                        keuze = Console.ReadLine();
+
+                        if (keuze == "1")
+                        {   
+                             Console.Clear();
+                            Console.WriteLine("1. overzicht mp3 speler");
+                        }
+                        else if (keuze == "2")
+                        {   
+                            Console.Clear();
+                            Console.WriteLine("2. overzicht iets");
+                        }
+
+                    }
+
+                        Console.Clear();
+                        Console.WriteLine("exit.");
+                        Environment.Exit(0);
+                
         }
     }
 }
