@@ -6,8 +6,7 @@ namespace opdracht5
     {
         public static void Login()
         {
-            Console.BackgroundColor = ConsoleColor.Gray;
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.Clear();
 
             //////////////////////////////////////////////-BEGINNING LOGIN SYSTEM-//////////////////////////////////////////////
@@ -88,18 +87,33 @@ namespace opdracht5
         }
     }
 
-    class Progam
+    class Mainsystem
 
-    {
+    {   
+        struct mp3
+        {
+            public int Id;
+            public string Make;
+            public string Model;
+            public int MBSize;
+            public double Price;
+        };
+
         static void Main(string[] args)
         {
             loginsystem.Login();
 
-            Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Clear();
 
                     string keuze = "";
+
+                    mp3 s;
+                    s.Id = 1;
+                    s.Make = "GET; technologies.inc";
+                    s.Model = "HF 410";
+                    s.MBSize = 4096;
+                    s.Price = 129.95;
 
                     while (keuze != "3")
                     {
@@ -114,7 +128,14 @@ namespace opdracht5
                         if (keuze == "1")
                         {
                             Console.WriteLine("1. overzicht mp3 speler");
+                            Console.WriteLine("");
+                            Console.WriteLine(s.Id);
+                            Console.WriteLine(s.Make);
+                            Console.WriteLine(s.Model);
+                            Console.WriteLine(s.MBSize);
+                            Console.WriteLine(s.Price);
                         }
+                        
                         else if (keuze == "2")
                         {
                             Console.WriteLine("2. overzicht iets");
