@@ -1,0 +1,6 @@
+D:\Arben\School\Sprints\Sprint 10\C#\AudioDevices\AudioDevices\bin\Debug\AudioDevices.dll
+D:\Arben\School\Sprints\Sprint 10\C#\AudioDevices\AudioDevices\bin\Debug\AudioDevices.pdb
+D:\Arben\School\Sprints\Sprint 10\C#\AudioDevices\AudioDevices\obj\Debug\AudioDevices.csprojAssemblyReference.cache
+D:\Arben\School\Sprints\Sprint 10\C#\AudioDevices\AudioDevices\obj\Debug\AudioDevices.csproj.CoreCompileInputs.cache
+D:\Arben\School\Sprints\Sprint 10\C#\AudioDevices\AudioDevices\obj\Debug\AudioDevices.dll
+D:\Arben\School\Sprints\Sprint 10\C#\AudioDevices\AudioDevices\obj\Debug\AudioDevices.pdb

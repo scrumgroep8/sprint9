@@ -118,7 +118,7 @@ namespace opdracht5
                     while (keuze != "3")
                     {
                         Console.WriteLine("");
-                        Console.WriteLine("1. menu");
+                        Console.WriteLine("1. mp3");
                         Console.WriteLine("2. iets");
                         Console.WriteLine("3. exit");
 

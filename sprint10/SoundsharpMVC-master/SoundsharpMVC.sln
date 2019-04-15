@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundsharpMVC", "SoundsharpMVC\SoundsharpMVC.csproj", "{A49676B2-9363-4828-80B3-E210424A1963}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioDevices", "AudioDevices\AudioDevices.csproj", "{617358B0-7E38-4399-A50B-A772435A0CE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A49676B2-9363-4828-80B3-E210424A1963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A49676B2-9363-4828-80B3-E210424A1963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A49676B2-9363-4828-80B3-E210424A1963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A49676B2-9363-4828-80B3-E210424A1963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{617358B0-7E38-4399-A50B-A772435A0CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{617358B0-7E38-4399-A50B-A772435A0CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{617358B0-7E38-4399-A50B-A772435A0CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{617358B0-7E38-4399-A50B-A772435A0CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {997C9FCC-5018-4FBD-B766-61EED9C26806}
+	EndGlobalSection
+EndGlobal
